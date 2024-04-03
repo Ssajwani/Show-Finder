@@ -1,0 +1,46 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<meta charset = "utf-8">
+		<title>Anime Finder</title>
+		<link rel="stylesheet" href="datapage.css"/>
+	</head>
+	<body>
+		<div class = "header">
+			<nav>
+				<img src = "logocs.jpg" alt="Anime Finder Logo">
+				<ul class="navigation-links">
+                    <li><a href="./index.html" class="ActiveHome">Home</a></li>
+                    <li><a href="./about.html" class="ActiveAbout">About The Page</a></li>
+                    <li><a href="./datapage.html"class="ActiveSources">Data Source</a></li>
+				</ul>
+			</nav>
+			<hr>
+            <div class = "info">
+                <h1>About The Data Used</h1>
+                <table>
+                    <!--Table row with headers-->
+                    <tr>
+                        <th>Where To Find The Data</th>
+                        <th>What Does It Contain</th>
+                        <th>Data Categories Used</th>
+                        <th>Modifications</th>
+                        <th>Limitations of Data</th>
+                        <th>Licensing</th>
+                        <th>Author</th>
+                    </tr>
+                    <!--Table row with data-->
+                    <tr>
+                        <td>Dataset from <a href="https://www.kaggle.com/datasets/marlesson/myanimelist-dataset-animes-profiles-reviews">kaggle</a></td>
+                        <td>Various Anime Titles (16k), Reviews (130k) and Profiles (47k) from <a href="https://myanimelist.net/">https://myanimelist.net/</a></td>
+                        <td>Title of the anime, genre, number of episodes, scores, and synopsis</td>
+                        <td>We removed the following categories: Identification code of the anime, the popularity of the anime, and the amount of followers each anime has. We also removed brackets within the genre column and got rid of duplicates</td>
+                        <td>Last updated 01/05/2020. It does not include anime that were released after this date</td>
+                        <td>CC0: Public Domain</td>
+                        <td>Marlesson Santana</td>
+                    </tr>
+                </table>
+            </div>
+        </div>  
+    </body>
+</html>
